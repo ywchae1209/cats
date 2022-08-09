@@ -1,7 +1,7 @@
-package ch1
+package typeClasses
 
-import ch1.TypeClass_JsonWriter.JsonWriterSyntax.JsonWriterOps
-import ch1.TypeClass_JsonWriter.{JsonWriterSyntax, Person}
+import typeClasses.TypeClass_JsonWriter.JsonWriterSyntax.JsonWriterOps
+import typeClasses.TypeClass_JsonWriter.{JsonWriterSyntax, Person}
 
 object TypeClass_JsonWriter {
 

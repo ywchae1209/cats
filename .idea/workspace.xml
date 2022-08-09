@@ -49,11 +49,11 @@
 }]]></component>
   <component name="RunManager" selected="Application.EqTest">
     <configuration name="EqTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ch1.EqTest" />
+      <option name="MAIN_CLASS_NAME" value="typeClasses.EqTest" />
       <module name="cats" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch1.*" />
+          <option name="PATTERN" value="typeClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,7 +66,7 @@
       <module name="cats" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch1.*" />
+          <option name="PATTERN" value="typeClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,7 +79,7 @@
       <module name="cats" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch1.*" />
+          <option name="PATTERN" value="typeClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,7 +92,7 @@
       <module name="cats" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch1.*" />
+          <option name="PATTERN" value="typeClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -1,10 +1,10 @@
-package ch1
+package typeClasses
 
-import ch1.TypeClass_Eq.Eq
+import typeClasses.TypeClass_Eq.Eq
 
 object TypeClass_Eq {
 
-  import ch1.TypeClass_Eq.EqSyntax._
+  import typeClasses.TypeClass_Eq.EqSyntax._
 
   // 1. type-class trait
   trait Eq[A] {
@@ -71,8 +71,8 @@ object TypeClass_Eq {
 
 object EqTest {
 
-  import ch1.TypeClass_Eq.EqInstance._
-  import ch1.TypeClass_Eq.EqSyntax._
+  import typeClasses.TypeClass_Eq.EqInstance._
+  import typeClasses.TypeClass_Eq.EqSyntax._
 
   final case class Cat(name: String, age: Int, color: String)
   implicit val eqCat : Eq[Cat] = new Eq[Cat] {

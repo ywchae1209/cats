@@ -1,9 +1,9 @@
-package ch1
+package typeClasses
 
 
 object TypeClass_Show {
 
-  import ch1.TypeClass_Show.ShowSyntax.PrintableOp
+  import typeClasses.TypeClass_Show.ShowSyntax.PrintableOp
 
   // 1. type-class trait
   trait Show[-A] {
