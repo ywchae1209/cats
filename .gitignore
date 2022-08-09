@@ -1,8 +1,13 @@
 ### Scala template
-.idea
+*.iml
+out
+gen
+
 .bsp
+.idea
 target
 project
 
 *.class
 *.log
+
