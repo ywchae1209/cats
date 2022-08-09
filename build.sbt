@@ -6,3 +6,9 @@ lazy val root = (project in file("."))
   .settings(
     name := "cats"
   )
+
+libraryDependencies += "org.typelevel" %% "cats-core" % "2.8.0"
+
+//scalacOptions ++= Seq(
+//  "-Xfatal-warnings",
+//)
