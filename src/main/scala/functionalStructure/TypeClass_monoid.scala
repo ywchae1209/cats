@@ -1,4 +1,4 @@
-package monoidAndSemigroup
+package functionalStructure
 
 object TypeClass_monoid {
 
