@@ -20,6 +20,7 @@ object TypeClass_functor {
   object FunctorSyntax {
 
     implicit class FunctorOps[A, F[_]]( a: F[A]) {
+      // i use 'mapping' because of name-confusion
       def mapping[B](f: A => B)(implicit functor: Functor[F]) : F[B] =
         functor.map(a)(f)
     }
@@ -48,12 +49,10 @@ object TypeClass_functor {
     }
 
     // note: type-lambda syntax
-    implicit def function1Functor[I]: Functor[({type l[A] = (I => A)})#l] = {
-
+    implicit def function1Functor[I]: Functor[({type l[A] = (I => A)})#l] =
       new Functor[({type l[A] = (I => A)})#l] {
         override def map[A, B](fa: I => A)(f: A => B): I => B = i => f(fa(i))
       }
-    }
 
     implicit def Nested[F[_] : Functor, G[_] : Functor]: Functor[({type l[A] = F[G[A]]})#l] =
       new Functor[({type l[A] = F[G[A]]})#l] {
