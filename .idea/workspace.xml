@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c320669-6002-403f-b7d8-e74f828ea699" name="Changes" comment="type-class monoid">
+    <list default="true" id="5c320669-6002-403f-b7d8-e74f828ea699" name="Changes" comment="Type Level Programming 101">
       <change afterPath="$PROJECT_DIR$/src/main/scala/functionalStructure/TypeClass_typeConstraints.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/typeLevelProgramming/AuxTypePattern.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/typeLevelProgramming/TLP101.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/NestedTypes/DependentTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/typeLevelProgramming/DependentTypes.scala" afterDir="false" />
     </list>
@@ -206,7 +205,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660283793328</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Type Level Programming 101">
+      <created>1660287404011</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660287404011</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Type Level Programming 101">
+      <created>1660287778417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660287778417</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Type Level Programming 101">
+      <created>1660288067281</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660288067281</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +257,7 @@
     <MESSAGE value="type-class exercise" />
     <MESSAGE value="type-class parse" />
     <MESSAGE value="type-class monoid" />
-    <option name="LAST_COMMIT_MESSAGE" value="type-class monoid" />
+    <MESSAGE value="Type Level Programming 101" />
+    <option name="LAST_COMMIT_MESSAGE" value="Type Level Programming 101" />
   </component>
 </project>
