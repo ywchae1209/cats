@@ -8,12 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c320669-6002-403f-b7d8-e74f828ea699" name="Changes" comment="type-class monoid">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/functionalStructure/TypeClass_functorNestedMap.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/functionalStructure/TypeClass_typeConstraints.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/typeLevelProgramming/AuxTypePattern.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/typeLevelProgramming/TLP101.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/NestedTypes/DependentTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/typeLevelProgramming/DependentTypes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/functionalStructure/TypeClass_functor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/functionalStructure/TypeClass_functor.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660213603088</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="type-class monoid">
+      <created>1660283793328</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660283793328</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
